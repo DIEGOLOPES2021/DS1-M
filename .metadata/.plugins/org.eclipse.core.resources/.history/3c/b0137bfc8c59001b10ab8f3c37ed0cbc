@@ -1,0 +1,40 @@
+package br.senai.sp.jandira.model;
+
+public class Conta {
+	
+	public String tipo;
+	private double saldo;
+	public String numero;
+	public String titular;
+	public boolean ativa;
+	public double chequeEspecial;
+	
+	public void depositar(double valorDeposito) {
+		
+		if (valorDeposito > 0) {
+			
+			saldo+=valorDepositar;
+		
+		
+		} else {
+			
+			System.out.println("valor invalido!!!");
+			
+		}
+		
+		public void mostrarSaldoDaConta() {
+			
+			System.out.println("Saldo:" + saldo);
+			System.out.println("Saldo: + chequeEspecial:"  + (saldo + limite));
+			
+		}
+		
+		public void sacar(double valorDoSaque) {
+			
+			saldo -= valorDoSaque;
+			
+		}
+		
+	}
+
+}
